@@ -1,7 +1,10 @@
 #Import Libraries 
+import pandas as pd
+import numpy as np
 import streamlit as st
 from datetime import date
-import numpy as np 
+import pandas as pd
+import numpy as np
 import yfinance as yf
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly

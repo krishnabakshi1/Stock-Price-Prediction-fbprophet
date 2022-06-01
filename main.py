@@ -9,6 +9,13 @@ import yfinance as yf
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 from plotly import graph_objs as go
+!pip uninstall fbprophet pystan
+!pip --no-cache-dir install pystan==2.17  #any version
+!pip --no-cache-dir install fbprophet==0.2 #any version
+!pip install pystan
+
+import pystan
+
 
 #Specify dates
 START = "2018-01-01"
